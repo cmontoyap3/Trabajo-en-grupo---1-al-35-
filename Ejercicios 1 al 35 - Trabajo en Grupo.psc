@@ -14,25 +14,25 @@ Funcion ejercicio_1_de_7
 		
 		Si (caracter == "a") o (caracter == "e") o (caracter == "i") o (caracter == "o") o (caracter == "u") entonces
 			
-			Mostrar "El caracter ingresado está comprendido entre las letras del abecedario..."
+			Mostrar "El caracter ingresado estÃ¡ comprendido entre las letras del abecedario..."
 			
 		Sino 
 			
 			Si (caracter = ",") o (caracter = ".") o (caracter = ";") o (caracter = ":") entonces
 				
-				Mostrar "El caracter es un signo de puntuación..."
+				Mostrar "El caracter es un signo de puntuaciÃ³n..."
 				
 			Sino
 				
 				Si (caracter <> "a") entonces
 					
-					Mostrar "El caracter ingresado está comprendido entre las letras del abecedario..."
+					Mostrar "El caracter ingresado estÃ¡ comprendido entre las letras del abecedario..."
 					
 				FinSi
 			Fin si
 		FinSi
 	SiNo
-		Mostrar "El caracter no es una letra ni un signo de puntuación..."
+		Mostrar "El caracter no es una letra ni un signo de puntuaciÃ³n..."
 		
 	FinSi
 	
@@ -48,77 +48,77 @@ Funcion ejercicio_2_de_7
 	
 	Leer caracter
 	Si caracter es igual a "0" o caracter es igual a "1" o caracter es igual a "2" o caracter es igual a "3" o caracter es igual a "4" o caracter es igual a "5" o caracter es igual a "6" o caracter es igual a "7" o caracter es igual a "8" o caracter es igual a "9" entonces
-		Mostrar "El caracter es un número"
+		Mostrar "El caracter es un nÃºmero"
 	Sino si caracter es igual a "a" o caracter es igual a "e" o caracter es igual a "i" o caracter es igual a "o" o caracter es igual a "u" entonces
 			Mostrar "El caracter es una vocal"
 		Sino
-			Mostrar "El caracter no es ni un número comprendido entre el 0 al 9 ni una vocal"
+			Mostrar "El caracter no es ni un nÃºmero comprendido entre el 0 al 9 ni una vocal"
 		Fin si
 	FIN SI
 	
 FinFuncion
 
 Funcion ejercicio_3_de_7 
-	// Leer el carácter vocal
-	// Mostrar el carácter vocal
-	// Convertir el carácter a su valor ASCII
+	// Leer el carÃ¡cter vocal
+	// Mostrar el carÃ¡cter vocal
+	// Convertir el carÃ¡cter a su valor ASCII
 	// Presentar su valor ASCII segun la vocal ingresada
-	// Mostrar el carácter vocal y su valor ASCII obtenido
+	// Mostrar el carÃ¡cter vocal y su valor ASCII obtenido
 	//Mostrar resultado FinAlgoritmo
 	leer vocal
 	
-	Mostrar "El carácter vocal ingresado es: ",vocal
+	Mostrar "El carÃ¡cter vocal ingresado es: ",vocal
 	
 	
 	Segun vocal Hacer
 		"a":
 			
-			Mostrar "La vocal ingresada está en minúscula"
+			Mostrar "La vocal ingresada estÃ¡ en minÃºscula"
 			Mostrar "El valor ASCII de la vocal ingresada es: 97"
 			
 		"e":
 			
-			Mostrar "La vocal ingresada está en minúscula"
+			Mostrar "La vocal ingresada estÃ¡ en minÃºscula"
 			Mostrar "El valor ASCII de la vocal ingresada es: 101"
 			
 		"i":
 			
-			Mostrar "La vocal ingresada está en minúscula"
+			Mostrar "La vocal ingresada estÃ¡ en minÃºscula"
 			Mostrar "El valor ASCII de la vocal ingresada es: 105"
 			
 		"o":
 			
-			Mostrar "La vocal ingresada está en minúscula"
+			Mostrar "La vocal ingresada estÃ¡ en minÃºscula"
 			Mostrar "El valor ASCII de la vocal ingresada es: 111"
 			
 		"u":
 			
-			Mostrar "La vocal ingresada está en minúscula"
+			Mostrar "La vocal ingresada estÃ¡ en minÃºscula"
 			Mostrar "El valor ASCII de la vocal ingresada es: 117"
 			
 		"A":
 			
-			Mostrar "La vocal ingresada está en mayúscula"
+			Mostrar "La vocal ingresada estÃ¡ en mayÃºscula"
 			Mostrar "El valor ASCII de la vocal ingresada es: 65"
 			
 		"E":
 			
-			Mostrar "La vocal ingresada está en mayúscula"
+			Mostrar "La vocal ingresada estÃ¡ en mayÃºscula"
 			Mostrar "El valor ASCII de la vocal ingresada es: 69"
 			
 		"I":
 			
-			Mostrar "La vocal ingresada está en mayúscula"
+			Mostrar "La vocal ingresada estÃ¡ en mayÃºscula"
 			Mostrar "El valor ASCII de la vocal ingresada es: 73"
 			
 		"O":
 			
-			Mostrar "La vocal ingresada está en mayúscula"
+			Mostrar "La vocal ingresada estÃ¡ en mayÃºscula"
 			Mostrar "El valor ASCII de la vocal ingresada es: 79"
 			
 		"U":
 			
-			Mostrar "La vocal ingresada está en mayúscula"
+			Mostrar "La vocal ingresada estÃ¡ en mayÃºscula"
 			Mostrar "El valor ASCII de la vocal ingresada es: 85"
 			
 		De Otro Modo:
@@ -151,60 +151,60 @@ Funcion ejercicio_4_de_7
 FinFuncion
 
 Funcion ejercicio_5_de_7
-	//Pedir al usuario que ingrese el primer número
-	//Pedir al usuario que ingrese el segundo número
+	//Pedir al usuario que ingrese el primer nÃºmero
+	//Pedir al usuario que ingrese el segundo nÃºmero
 	//Verificar si son iguales
 	//Verificar si el primero es menor que el segundo
 	//Mostrar resultado finalalgoritmo
-	Mostrar("Ingrese el primer número: ")
+	Mostrar("Ingrese el primer nÃºmero: ")
 	Leer num1
 	
-	Mostrar("Ingrese el segundo número: ")
+	Mostrar("Ingrese el segundo nÃºmero: ")
 	Leer num2
 	
 	Si (num1 == num2) Entonces
-		Mostrar("Los números son iguales")
+		Mostrar("Los nÃºmeros son iguales")
 	Sino
 		
 		Si (num1 < num2) Entonces
-			Mostrar("El primer número es menor que el segundo")
+			Mostrar("El primer nÃºmero es menor que el segundo")
 		Sino
-			Mostrar("El primer número es mayor que el segundo")
+			Mostrar("El primer nÃºmero es mayor que el segundo")
 		Fin Si
 	Fin Si
 	
 FinFuncion
 
 Funcion ejercicio_6_de_7
-	//Pedir al usuario que ingrese el primer número
-	//Pedir al usuario que ingrese el segundo número
-	//Pedir al usuario que ingrese el tercer número
+	//Pedir al usuario que ingrese el primer nÃºmero
+	//Pedir al usuario que ingrese el segundo nÃºmero
+	//Pedir al usuario que ingrese el tercer nÃºmero
 	//ejecutar algoritmos
-	//Comprobar si los números son iguales
-	//Comprobar si los números son iguales
-	//Comprobar si los números son iguales
+	//Comprobar si los nÃºmeros son iguales
+	//Comprobar si los nÃºmeros son iguales
+	//Comprobar si los nÃºmeros son iguales
 	//Mostrar resultado FinAlgoritmo
 	
-	Mostrar ("Ingrese el primer número: ")
+	Mostrar ("Ingrese el primer nÃºmero: ")
 	Leer num1
 	
-	Mostrar("Ingrese el segundo número: ")
+	Mostrar("Ingrese el segundo nÃºmero: ")
 	Leer num2
 	
-	Mostrar ("Ingrese el tercer número: ")
+	Mostrar ("Ingrese el tercer nÃºmero: ")
 	Leer num3
 	
 	Si (num1 == num2 & num2 == num3) Entonces
-		Escribir("Los tres números son iguales")
+		Escribir("Los tres nÃºmeros son iguales")
 	Sino
 		
 		Si (num1 >= num2 & num1 >= num3) Entonces
-			Mostrar("El primer número es el mayor")
+			Mostrar("El primer nÃºmero es el mayor")
 		Sino Si (num2 >= num1 & num2 >= num3) Entonces
-				Mostrar("El segundo número es el mayor")
+				Mostrar("El segundo nÃºmero es el mayor")
 			Sino
 				
-				Mostrar("El tercer número es el mayor")
+				Mostrar("El tercer nÃºmero es el mayor")
 			Fin Si
 			
 		Fin Si
@@ -214,35 +214,35 @@ Funcion ejercicio_6_de_7
 FinFuncion
 
 Funcion ejercicio_7_de_7
-	// Pedir al usuario que ingrese un número
-	//Comprobar si el número es negativo
-	//Comprobar si el número es positivo
+	// Pedir al usuario que ingrese un nÃºmero
+	//Comprobar si el nÃºmero es negativo
+	//Comprobar si el nÃºmero es positivo
 	//Comprobar si es neutro (es decir, si es igual a 0)
 	//Mostrar resultado FinAlgoritmo
 	
-	Mostrar("Ingrese un número:")
+	Mostrar("Ingrese un nÃºmero:")
 	Leer num
 	
 	
 	Si (num < 0) Entonces
-		Mostrar("El número es negativo")
+		Mostrar("El nÃºmero es negativo")
 		
 		
 	Sino si (num > 0) Entonces
-			Mostrar("El número es positivo")
+			Mostrar("El nÃºmero es positivo")
 			
 			
 		Sino
-			Mostrar("El número es neutro")
+			Mostrar("El nÃºmero es neutro")
 		Fin Si
 	fin si
 	
 FinFuncion
 
 Funcion ejercicio_8
-	// Determinar cuanto se debe pagar por x cantidad de lápices,
-	//considerando que si son más de 1000 el costo es de 1 , caso contrario
-	//el precio será 1,50
+	// Determinar cuanto se debe pagar por x cantidad de lÃ¡pices,
+	//considerando que si son mÃ¡s de 1000 el costo es de 1 , caso contrario
+	//el precio serÃ¡ 1,50
 	//definir variables
 	Definir precio_lapiz, cantidad, precio_total Como Real
 	//se pide ingresar datos
@@ -268,9 +268,9 @@ Funcion ejercicio_8
 FinFuncion
 
 Funcion ejercicio_9
-	//Almacén "Somos Mas" tiene una promoción: a todos los trajes que
-	//tienen un precio superior a 2500, se les aplicará un descuento del 15%,
-	//a todo los demás se les aplicará sólo el 8%.
+	//AlmacÃ©n "Somos Mas" tiene una promociÃ³n: a todos los trajes que
+	//tienen un precio superior a 2500, se les aplicarÃ¡ un descuento del 15%,
+	//a todo los demÃ¡s se les aplicarÃ¡ sÃ³lo el 8%.
 	//definir variables
 	Definir precio_traje, descuento, descuento_final, valor_total Como Real
 	//se pide ingresar datos
@@ -299,9 +299,9 @@ FinFuncion
 
 Funcion ejercicio_10
 	//"Somos Mas" es una empresa dedicada a ofrecer banquetes; sus tarifas son
-	//las siguientes:El costo de platillo por persona es de $95.00, pero si el número de
+	//las siguientes:El costo de platillo por persona es de $95.00, pero si el nÃºmero de
 	//personas es mayor a 200 pero menor o igual a 300, el costo es de $85.00.
-	//Para más de 300 personas el costo por platillo es de $75.00. Se requiere un
+	//Para mÃ¡s de 300 personas el costo por platillo es de $75.00. Se requiere un
 	//algoritmo que ayude a determinar el presupuesto que se debe presentar a los
 	//clientes que deseen realizar un evento.
 	Definir precio_plato, personas, valor_total Como Real
@@ -328,13 +328,13 @@ Funcion ejercicio_10
 FinFuncion
 
 Funcion ejercicio_11
-	//La asociación de vinicultores tiene como política fijar un precio inicial al kilo
-	//de uva, la cual se clasifica en tipos A y B, y además en tamaños 1 y 2.
-	//Cuando se realiza la venta del producto, ésta es de un solo tipo y tamaño, se
-	//requiere determinar cuánto recibirá un productor por la uva que entrega en un
-	//embarque, considerando lo siguiente:Si es de tipo A, se le cargan 20¢ al precio
-	//inicial cuando es de tamaño 1; y 30¢ si es de tamaño 2. Si es de tipo B, se rebajan
-	//30¢ cuando es de tamaño 1, y 50¢ cuando es de tamaño 2.
+	//La asociaciÃ³n de vinicultores tiene como polÃ­tica fijar un precio inicial al kilo
+	//de uva, la cual se clasifica en tipos A y B, y ademÃ¡s en tamaÃ±os 1 y 2.
+	//Cuando se realiza la venta del producto, Ã©sta es de un solo tipo y tamaÃ±o, se
+	//requiere determinar cuÃ¡nto recibirÃ¡ un productor por la uva que entrega en un
+	//embarque, considerando lo siguiente:Si es de tipo A, se le cargan 20Â¢ al precio
+	//inicial cuando es de tamaÃ±o 1; y 30Â¢ si es de tamaÃ±o 2. Si es de tipo B, se rebajan
+	//30Â¢ cuando es de tamaÃ±o 1, y 50Â¢ cuando es de tamaÃ±o 2.
 	//Realice un algoritmo para determinar la ganancia obtenida
 	//kilo de uva: $4
 	//definir variables
@@ -347,7 +347,7 @@ Funcion ejercicio_11
 	leer tipo
 	//se usa minusculas para eliminar la diferencia entre mayusculas y minusculas
 	tipo= Minusculas(tipo)
-	Escribir "Ingrese el tamaño de uva"
+	Escribir "Ingrese el tamaÃ±o de uva"
 	leer tamano
 	//utilizar si para obtener la tarifa de la uva y se calcula el valor
 	si tipo= "a" y tamano= 1 Entonces
@@ -373,13 +373,13 @@ Funcion ejercicio_11
 FinFuncion
 
 Funcion ejercicio_12
-	//El director de carrera de software está organizando un viaje de estudios,
-	//y requiere determinar cuánto debe cobrar a cada alumno y cuánto debe pagar
-	//a la compañía de viajes por el servicio. La forma de cobrar es la siguiente:
-	//si son 100 alumnos o más, el costo por cada alumno es de $65.00;
+	//El director de carrera de software estÃ¡ organizando un viaje de estudios,
+	//y requiere determinar cuÃ¡nto debe cobrar a cada alumno y cuÃ¡nto debe pagar
+	//a la compaÃ±Ã­a de viajes por el servicio. La forma de cobrar es la siguiente:
+	//si son 100 alumnos o mÃ¡s, el costo por cada alumno es de $65.00;
 	//de 50 a 99 alumnos, el costo es de $70.00, de 30 a 49, de $95.00, y si son menos
-	//de 30, el costo de la renta del autobús es de $4000.00, sin importar el número
-	//de alumnos.Realice un algoritmo que permita determinar el pago a la compañía
+	//de 30, el costo de la renta del autobÃºs es de $4000.00, sin importar el nÃºmero
+	//de alumnos.Realice un algoritmo que permita determinar el pago a la compaÃ±Ã­a
 	//de autobuses y lo que debe pagar cada alumno por el viaje
 	//se definen variables
 	Definir costo_alumno, pago_final como real
@@ -387,7 +387,7 @@ Funcion ejercicio_12
 	//se pide ingresar datos
 	Escribir "Ingrese la cantidad de alumnos"
 	leer alumnos
-	//se usa si para calcular el valor a pagar de cada alumno y el valor del pago a la compañia
+	//se usa si para calcular el valor a pagar de cada alumno y el valor del pago a la compaÃ±ia
 	//se resuelve dentro de cada si para poder obtener el resultado de precio por alumno en 
 	//el caso de ser menor a 30.
 	si alumnos >= 100 Entonces
@@ -408,16 +408,16 @@ Funcion ejercicio_12
 		FinSi
 	FinSi
 	//se muestran resultados
-	Escribir "El pago de la compañia de autobuses es de: $", pago_final
+	Escribir "El pago de la compaÃ±ia de autobuses es de: $", pago_final
 	Escribir "El valor a pagar por alumno es de $", costo_alumno
 FinFuncion
 
 Funcion ejercicio_13
-	//Una compañía de viajes cuenta con tres tipos de autobuses (A, B y C),
-	//cada uno tiene un precio por kilómetro recorrido por persona, los costos respectivos son $2.0,
+	//Una compaÃ±Ã­a de viajes cuenta con tres tipos de autobuses (A, B y C),
+	//cada uno tiene un precio por kilÃ³metro recorrido por persona, los costos respectivos son $2.0,
 	//$2.5 y $3.0. Se requiere determinar el costo total y por persona del viaje considerando que
-	//cuando éste se presupuesta debe haber un mínimo de 20 personas, de lo contrario el cobro se
-	//realiza con base en este número límite.
+	//cuando Ã©ste se presupuesta debe haber un mÃ­nimo de 20 personas, de lo contrario el cobro se
+	//realiza con base en este nÃºmero lÃ­mite.
 	//definir variables
 	Definir tipo Como Caracter
 	definir personas Como Entero
@@ -470,10 +470,10 @@ FinFuncion
 
 Funcion ejercicio_14
 	//Determinar cuanto se debe pagar por cierta cantidad de colas,
-	//considerando que si son más de 23 colas, el costo por unidad
-	//es de $0,50 caso contrario el precio será 20% mas.
+	//considerando que si son mÃ¡s de 23 colas, el costo por unidad
+	//es de $0,50 caso contrario el precio serÃ¡ 20% mas.
 	//Al costo resultante calcular el 12% del iva. Se pide presentar:
-	//cantidad comprada, el costo ´por unidad, el total sin iva
+	//cantidad comprada, el costo Â´por unidad, el total sin iva
 	//el iva y el total a pagar.
 	//Definir variables
 	Definir cantidad Como Entero
@@ -784,17 +784,17 @@ Funcion Ej21
 FinFuncion
 Funcion ej22
 	Definir num1, num2, num3, doble, porc, xxx Como Entero
-	Escribir "Ingrese el primer número"
+	Escribir "Ingrese el primer nÃºmero"
 	Leer num1;
-	Escribir "Ingrese el segundo número"
+	Escribir "Ingrese el segundo nÃºmero"
 	Leer num2;
-	Escribir "Ingrese el tercer número"
+	Escribir "Ingrese el tercer nÃºmero"
 	Leer num3;
 	doble<-num2*2;
 	Si (num1=doble) Entonces
-		Escribir "El primer número ingresado si es el doble del segundo número ingresado. ", num1, " es el doble de ", num2;
+		Escribir "El primer nÃºmero ingresado si es el doble del segundo nÃºmero ingresado. ", num1, " es el doble de ", num2;
 	SiNo
-		Escribir "Vuelva a ingresar otros números"
+		Escribir "Vuelva a ingresar otros nÃºmeros"
 	Fin Si
 	porc=num3*0.2;
 	xxx=num3-porc;
@@ -806,7 +806,7 @@ FinFuncion
 Funcion ej23
 	Definir dia Como Entero
 	dia=0;
-	Escribir "Ingrese un número para presentar un mensaje equivalente a los días de la semana"
+	Escribir "Ingrese un nÃºmero para presentar un mensaje equivalente a los dÃ­as de la semana"
 	Leer dia;
 	Segun dia Hacer
 		1:
@@ -814,13 +814,13 @@ Funcion ej23
 		2:
 			Escribir "Martes"
 		3:
-			Escribir "Miércoles"
+			Escribir "MiÃ©rcoles"
 		4:
 			Escribir "Jueves"
 		5:
 			Escribir "Viernes"
 		6:
-			Escribir "Sábado"
+			Escribir "SÃ¡bado"
 		7:
 			Escribir "Domingo"
 		De Otro Modo:
@@ -831,7 +831,7 @@ FinFuncion
 Funcion ej24
 	Definir mes Como Entero
 	mes=0;
-	Escribir "Ingrese un número para presentar un mensaje equivalente a los meses del ano"
+	Escribir "Ingrese un nÃºmero para presentar un mensaje equivalente a los meses del ano"
 	Leer mes;
 	Segun mes Hacer
 		1:
@@ -881,7 +881,7 @@ Funcion ej26
 	Definir cont Como Entero
 	Para cont=1 Hasta 100 Con Paso 1 Hacer
 		Si cont%2==0 Entonces
-			Escribir "El número ", cont, "es par";
+			Escribir "El nÃºmero ", cont, "es par";
 		Fin Si
 	Fin Para
 FinFuncion
@@ -891,11 +891,11 @@ Funcion ej27
 	Definir num, sum Como Real
 	sum=0;
 	Para x=1 Hasta 10 Con Paso 1 Hacer
-		Escribir "Ïngrese un número"
+		Escribir "Ãngrese un nÃºmero"
 		Leer num;
 		sum=sum+num;
 	Fin Para
-	Escribir "La suma de los 10 números ingresados es: " sum;
+	Escribir "La suma de los 10 nÃºmeros ingresados es: " sum;
 FinFuncion
 
 Funcion ej28
@@ -915,12 +915,12 @@ FinFuncion
 Funcion Ejercicio_29_de_35
 	
 //	Una empresa tiene el registro de las horas y el valor hora que trabaja diariamente un
-//	empleado durante los 20 días del mes. Requiere determinar el total de éstas, así como el sueldo
-//	que recibirá por las horas trabajadas. Realizar el algoritmo que resuelva este problema
+//	empleado durante los 20 dÃ­as del mes. Requiere determinar el total de Ã©stas, asÃ­ como el sueldo
+//	que recibirÃ¡ por las horas trabajadas. Realizar el algoritmo que resuelva este problema
 	
 	//Paso 1: Definir variables a utilizar...
 	
-	//RegHora = Numero de horas laboradas al día del trabajador
+	//RegHora = Numero de horas laboradas al dÃ­a del trabajador
 	//VHora = Valor a pagar por hora 
 	//HTMes = Horas Trabajadas al Mes: RegHora * 20
 	//Sueldo = HTMes * VHora
@@ -928,9 +928,9 @@ Funcion Ejercicio_29_de_35
 	Definir RegHora, HTMes como entero
 	Definir VHora, Sueldo como real
 	
-	//Paso 2: Incorporar el número total de horas al día a calcular y el valor unitario de cada hora de trabajo...
+	//Paso 2: Incorporar el nÃºmero total de horas al dÃ­a a calcular y el valor unitario de cada hora de trabajo...
 	
-	Mostrar "Ingrese el número de horas que trabaja al día: "
+	Mostrar "Ingrese el nÃºmero de horas que trabaja al dÃ­a: "
 	Leer RegHora
 	
 	Mostrar "Ingrese el valor unitario de cada hora que trabaja: "
@@ -941,16 +941,16 @@ Funcion Ejercicio_29_de_35
 	
 	Mostrar ""
 	
-	//Paso 3: Mostrar secuencia de mensajes según los valores ingresados que irán cambiando según el caso...
+	//Paso 3: Mostrar secuencia de mensajes segÃºn los valores ingresados que irÃ¡n cambiando segÃºn el caso...
 	
 	Si (RegHora <= 0 o RegHora > 16 o RegHora = -0) y (VHora < 0 o VHora = -0)
 		
-		Mostrar "La cantidad de horas ingresada no es válida... (Un día consta de 24 horas y se labora como máximo hasta 16 horas)"
+		Mostrar "La cantidad de horas ingresada no es vÃ¡lida... (Un dÃ­a consta de 24 horas y se labora como mÃ¡ximo hasta 16 horas)"
 		
 	SiNo
 		
 		Mostrar "La cantidad de horas trabajadas al mes de de: ",HTMes " horas"
-		Mostrar "El sueldo a pagar del empleado es de: $",Sueldo " dólares..."
+		Mostrar "El sueldo a pagar del empleado es de: $",Sueldo " dÃ³lares..."
 		
 	FinSi
 	
@@ -958,14 +958,14 @@ FinFuncion
 
 Funcion Ejercicio_30_de_35
 	
-//	Un empleado de la tienda "Somos Más" realiza N ventas durante el día, se requiere saber
-//	cuántas de ellas fueron mayores a $1000, cuántas de ellas fueron mayores a $500 pero menores
-//	o iguales a $1000, y cuantas fueron menores o iguales a $500. Además, se requiere saber el
-//	monto de lo vendido en cada categoría y de forma global. Realizar un algoritmo
+//	Un empleado de la tienda "Somos MÃ¡s" realiza N ventas durante el dÃ­a, se requiere saber
+//	cuÃ¡ntas de ellas fueron mayores a $1000, cuÃ¡ntas de ellas fueron mayores a $500 pero menores
+//	o iguales a $1000, y cuantas fueron menores o iguales a $500. AdemÃ¡s, se requiere saber el
+//	monto de lo vendido en cada categorÃ­a y de forma global. Realizar un algoritmo
 	
 	// Paso 1: Definir variables a utilizar...
 	
-	// NVentas: Número de ventas establecidas por el usuario
+	// NVentas: NÃºmero de ventas establecidas por el usuario
 	// Venta: Venta unitaria de producto
 	// Cat1: Ventas mayores a $1000.
 	// Cat2: Ventas menores o iguales a $1000.
@@ -1001,7 +1001,7 @@ Funcion Ejercicio_30_de_35
 					
 				SiNo
 					
-					Mostrar "El valor ingresado no es válido"
+					Mostrar "El valor ingresado no es vÃ¡lido"
 					VentaTotal = VentaTotal - Venta
 					NVentas = NVentas - 1
 					
@@ -1013,25 +1013,18 @@ Funcion Ejercicio_30_de_35
 		Mostrar ""
 	Fin Para
 	
-	//Paso 3: Mostrar los valores respectivos a cada categoría y su enumeracion respectiva...
+	//Paso 3: Mostrar los valores respectivos a cada categorÃ­a y su enumeracion respectiva...
 	
 	Mostrar "-------------------------------------------------"
-	Mostrar "El número total de ventas exitosas es:   ",NVentas - 1
-	Mostrar "Ventas dentro del rango $1001 a más :    ",Cat1
+	Mostrar "El nÃºmero total de ventas exitosas es:   ",NVentas - 1
+	Mostrar "Ventas dentro del rango $1001 a mÃ¡s :    ",Cat1
 	Mostrar "Ventas dentro del rango $501 a $1000:    ",Cat2
 	Mostrar "Ventas dentro del rango $1 a $500   :    ",Cat3
 	Mostrar "El total de ventas establecidos es de:   ",VentaTotal
 	
 FinFuncion
 
-Funcion Ejercicio_31_de_35
-	
-//	Se dispone de las calificaciones de n alumnos del primer semestre
-//	de la carrera de software de la unemi. Se tiene la nota final y la asignatura
-//	('logica','requerimientos','calculos'). Se pide el promedio de
-//	cada asignatura y el promedio general de todas las asignaturas de los
-//	alumnos del primer semestre.
-	
+Funcion ejercicio31
 	Definir calculo, log, requerimiento,materia Como Caracter;
 	Definir alumnos, i Como Entero;
 	Definir nota,nota1,nota2,nota3,total1,total2,total3 Como Real;
@@ -1044,37 +1037,35 @@ Funcion Ejercicio_31_de_35
 	total2 <- 0;
 	total3 <- 0;
 	
-	Para i <- 1 Hasta alumnos Con Paso 1 Hacer
-		Escribir 'digite la materia (calculo, log, requerimiento)',i
-		Leer materia
-		Escribir 'digite nota final de la materia',materia
-		Leer nota
-		
-		Si materia = "log" Entonces
-			nota1 = nota1 + 1
-			total1 = total1 + nota
-			
+	Mientras alumnos>i Hacer
+		Escribir "Ingrese la materia (calculo, log y requerimiento) ", nota1;
+		Leer materia;
+		Escribir "Ingrese la nota de ", materia;
+		Leer nota;
+		Si materia="calculo" Entonces
+			nota1=nota1+1;
+			total1=total1+nota;
 		SiNo
-			Si materia = "calculo" Entonces
-				nota2 = nota2 + 1
-				total2 = total2 + nota
-				
+			Si materia = "log" Entonces
+				nota2 <- nota2 + 1;
+				total2 <- total2 + nota;
 			SiNo
 				Si materia = "requerimiento" Entonces
-					nota3 = nota3 + 1
-					total3 = total3 + nota
-					
+					nota3 <- nota3 + 1;
+					total3 <- total3 + nota;
 				SiNo
-					Escribir "Esa materia no existe"
+					Escribir "Esa materia no existe"; 
 				FinSi
 			FinSi
 		FinSi
-	FinPara
-	Escribir "Promedio de Logica: ", (total1/nota1)
-	Escribir "Promedio de Calculo: ", (total1/nota2)
-	Escribir "Promedio de Requerimiento: ", (total3/nota3)
-	Escribir "Promedio final: ", (total1+total2+total3)/alumnos
-	
+		Si (nota1>i) y (nota2>1) y (nota3>i) Entonces
+			alumnos=alumnos-1;
+		FinSi
+	Fin Mientras
+	Escribir "Promedio de Logica: ", (total1/nota1); 
+	Escribir "Promedio de Calculo: ", (total1/nota2); 
+	Escribir "Promedio de Requerimiento: ", (total3/nota3);
+	Escribir "Promedio final: ", (total1+total2+total3)/nota1;Â 
 FinFuncion
 
 Funcion Ejercicio_32_de_35
@@ -1093,7 +1084,7 @@ Funcion Ejercicio_32_de_35
 	
 	Sueldo = 500
 	
-	Mostrar "El sueldo base de un profesor es de $500, recibirá un bono adicional según su cargo..."
+	Mostrar "El sueldo base de un profesor es de $500, recibirÃ¡ un bono adicional segÃºn su cargo..."
 	Mostrar "Son 3 cargos: Auxiliar, Agregado y Principal..."
 	
 	Mientras Terminar = 0 Hacer
@@ -1104,7 +1095,7 @@ Funcion Ejercicio_32_de_35
 		Segun Categoria Hacer
 			"Auxiliar":
 				
-				Mostrar "La categoría de auxiliar dispone de un aumento del 10% del sueldo básico"
+				Mostrar "La categorÃ­a de auxiliar dispone de un aumento del 10% del sueldo bÃ¡sico"
 				Sueldo = 500 + (500 * 0.10)
 				SueldoF = Sueldo
 				Mostrar "El nuevo sueldo es de: ",SueldoF
@@ -1112,7 +1103,7 @@ Funcion Ejercicio_32_de_35
 				
 			"Agregado":
 				
-				Mostrar "La categoría de agregado dispone de un aumento del 20% del sueldo básico"
+				Mostrar "La categorÃ­a de agregado dispone de un aumento del 20% del sueldo bÃ¡sico"
 				Sueldo = 500 + (500 * 0.20)
 				SueldoF = Sueldo
 				Mostrar "El nuevo sueldo es de: ",SueldoF
@@ -1120,7 +1111,7 @@ Funcion Ejercicio_32_de_35
 				
 			"Principal":
 				
-				Mostrar "La categoría de principal dispone de un aumento del 50% del sueldo básico"
+				Mostrar "La categorÃ­a de principal dispone de un aumento del 50% del sueldo bÃ¡sico"
 				Sueldo = 500 + (500 * 0.50)
 				SueldoF = Sueldo
 				Mostrar "El nuevo sueldo es de: ",SueldoF
@@ -1177,7 +1168,7 @@ Funcion Ejercicio_33_de_35
 				
 				Si RecorridoenKM <= 0
 					
-					Mostrar "La cantidad ingresada no es válida..."
+					Mostrar "La cantidad ingresada no es vÃ¡lida..."
 					Pasaje = 0
 					Acumulador = Acumulador + Pasaje
 					CantViajes = CantViajes - 1
@@ -1192,15 +1183,15 @@ Funcion Ejercicio_33_de_35
 	
 	Prom = Acumulador / (CantViajes - 1)
 	
-	Mostrar "El número de pasajes menores o iguales a 100km es de: ",Tipo1
-	Mostrar "El número de pasajes mayores a 100km es de: ",Tipo2
+	Mostrar "El nÃºmero de pasajes menores o iguales a 100km es de: ",Tipo1
+	Mostrar "El nÃºmero de pasajes mayores a 100km es de: ",Tipo2
 	Mostrar "El promedio de pago de pasajes general es de: ",Prom
 	
 FinFuncion
 
 Funcion Ejercicio_34_de_35
 	
-//	Diseñar un algoritmo que lea y presente una serie de números distintos de
+//	DiseÃ±ar un algoritmo que lea y presente una serie de nÃºmeros distintos de
 //	cero. El algoritmo debe terminar con un valor cero que no se debe presentar.
 //	Finalmente se desea obtener la cantidad y el promedio de los valores distintos de cero
     
@@ -1234,9 +1225,9 @@ FinFuncion
 
 Funcion Ejercicio_35_de_35
 	
-//	Dada una serie de números positivos lea y presente el numero.
+//	Dada una serie de nÃºmeros positivos lea y presente el numero.
 //	El algoritmo debe terminar con un valor negativo que no se debe presentar.
-//	Finalmente se desea obtener la cantidad y el total de los números positivos múltiplos de 3...
+//	Finalmente se desea obtener la cantidad y el total de los nÃºmeros positivos mÃºltiplos de 3...
 	
 	//Paso 1: Definicion de variables a utilizar
 	Definir num, Contador, Multiplo3 como entero
@@ -1254,7 +1245,7 @@ Funcion Ejercicio_35_de_35
 		FinSi
 		
 		Si num mod 3 = 0 y num > -1
-			Mostrar "El número ingresado es múltiplo de 3..."
+			Mostrar "El nÃºmero ingresado es mÃºltiplo de 3..."
 			Multiplo3 = Multiplo3 + 1
 		FinSi
 		
@@ -1262,7 +1253,7 @@ Funcion Ejercicio_35_de_35
 	
 	//Paso 3: Mostrar los contadores pertenecientes a sus variables 
 	Mostrar "La cantidad total de numero positivos ingresados es de: ",Contador
-	Mostrar "La cantidad de números ingresados y que sean múltiplos de 3 es de: ",Multiplo3
+	Mostrar "La cantidad de nÃºmeros ingresados y que sean mÃºltiplos de 3 es de: ",Multiplo3
 	
 FinFuncion
 
@@ -1291,7 +1282,7 @@ Algoritmo Ejercicios_1_al_35
 //	Ej21()
 //	Ejercicio_29_de_35
 //	Ejercicio_30_de_35
-//	Ejercicio_31_de_35
+//	ejercicio31
 //	Ejercicio_32_de_35
 //	Ejercicio_33_de_35
 //	Ejercicio_34_de_35
